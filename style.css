@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Source+Sans+Pro&display=swap');
+
+body {
+  background: #1F1F1F;
+  margin: 0px;
+  color:white;
+  font-family: 'Source Code Pro', sans-serif;
+}
+
+header {
+  padding: 20px;
+  font-size:22px;
+}
+
+nav {
+  float:right;
+}
+div.title {
+  font-family: 'Inconsolata';
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  width: 100px;
+  display: inline-block;
+  font-size:18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: white;
+  width: 100px;
+  display: inline-block;
+}
+
+.container {
+  margin-top: 100px;
+  margin-left:200px;
+  margin-right:200px;
+  text-align: center;
+}
+h1 {
+  font-size:58px;
+}
+p.lead {
+  font-size:18px;
+}
+.progress-bar {
+  width: 100%;
+  background: #555555;
+  height:30px;
+  border-radius: 20px;
+}
+.progress-bar .progress {
+  width: 25%;
+  background: #1F6FFF;
+  height: 30px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.download {
+  text-decoration: none;
+  padding: 20px;
+  background:#1F6FFF;
+  border:none;
+  border-radius: 40px;
+  color:white;
+  font-size: 18px;
+  display: inline-block;
+  transition: 2s;
+}
+.download:hover {
+  text-decoration: none;
+  padding: 20px;
+  background:#1F6FFF;
+  border:none;
+  border-radius: 40px;
+  color:white;
+  font-size: 18px;
+  width:200px;
+  display: inline-block;
+  transition: 2s;
+}
+
+.title a {
+  text-decoration: none;
+  color:white;
+}
